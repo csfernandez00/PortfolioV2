@@ -394,22 +394,22 @@
                     <h2>Te intereso mi perfil?</h2>
                     <h4>No dudes en contactarme!</h4>
                 </div>
-                <form>
+                <form name="contact" method="POST" data-netlify="true">
                     <div>                       
-                        <input type="text" id="name" required>
+                        <input type="text" id="name" name="Nombre"  required>
                         <label style="font-size: 1.3rem;" for="name">Nombre</label>
                     </div>
 
                     <div>                       
-                        <input type="email" id="email" required>
+                        <input type="email" id="email"  name="Email" required>
                         <label style="font-size: 1.3rem;" for="email">Email</label>
                     </div>
 
                     <div class="message">                        
-                        <textarea name="message" id="message"  rows="7" style="resize:  none;" required></textarea>
+                        <textarea name="message" id="message"  name="Mensaje" rows="7" style="resize:  none;" required></textarea>
                         <label style="font-size: 1.3rem;" for="message">Mensaje</label>
                     </div>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" name="submit" value="Enviar">
                 </form>
                 
             </div>

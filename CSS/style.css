@@ -1476,17 +1476,13 @@ border-bottom: 2px solid #555 ;
         padding: 2rem 10%;
     }
 
-
-    #contact{
-        padding: 1rem 2rem;
-    }
     #contact .row {
         width: 90%;
         gap: 2rem;
     }
 
     #contact .row .left-side{
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 100%;
         gap: 0rem;
     }
@@ -1611,7 +1607,7 @@ border-bottom: 2px solid #555 ;
         font-size: 1.1rem;
     }
     #contact{
-        padding: 2rem;
+        padding: 2rem 2rem 0;
     }
     #contact .row {
         width: 100%;
@@ -1620,7 +1616,6 @@ border-bottom: 2px solid #555 ;
     }
 
     #contact .row .left-side{
-        flex-direction: column-reverse;
         width: 100%;
         gap: 0rem;
     }
