@@ -907,7 +907,7 @@ section {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 6rem;
 }
 
 #contact .row .left-side{
@@ -1044,19 +1044,21 @@ section {
 }
 
 #contact .row .right-side form div input:focus ~ label,
-#contact .row .right-side form div input:valid ~ label{
+#contact .row .right-side form div input:valid ~ label,
+#contact .row .right-side form div input:not(:placeholder-shown) ~ label{
     top: -20%;
     color: #555;
 }
 
 #contact .row .right-side form div input:focus,
-#contact .row .right-side form div input:valid{
+#contact .row .right-side form div input:valid,
+#contact .row .right-side form div input:not(:placeholder-shown){
     border-bottom: 2px solid #555 ;
 }
 
 #contact .row .right-side form .message textarea:focus,
 #contact .row .right-side form .message textarea:valid{
-border-bottom: 2px solid #555 ;
+    border-bottom: 2px solid #555 ;
 }
 
 
@@ -1482,14 +1484,15 @@ border-bottom: 2px solid #555 ;
     }
 
     #contact .row .left-side{
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
-        gap: 0rem;
+        justify-content: space-between;
     }
     #contact .row .left-side .social-links{
         padding: 2rem 0;
         gap: 2rem;
         justify-content: center;
+        flex-direction: column;
     }
 
     #contact .row .right-side{
@@ -1611,13 +1614,13 @@ border-bottom: 2px solid #555 ;
     }
     #contact .row {
         width: 100%;
-        gap: 2rem;
-        padding: 1rem 0;
+        gap: 3rem;
+        padding: 3rem 0;
     }
 
     #contact .row .left-side{
         width: 100%;
-        gap: 0rem;
+        padding: 2rem 1rem 0 0;
     }
     #contact .row .left-side .social-links{
         padding: 2rem 0;
@@ -1642,7 +1645,7 @@ border-bottom: 2px solid #555 ;
 
     #contact .row .right-side form input[type="submit"]{
         width: 100%;
-        padding: 1rem 0;
+        padding: 1.5rem 0;
     } 
 
     #contact .row .right-side form div textarea{
