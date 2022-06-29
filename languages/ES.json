@@ -1,0 +1,42 @@
+{
+    "Header": {
+        "proyectos": "Proyectos",
+        "resumen": "Resumen"
+    },
+
+    "Welcome": {
+        "parrafo": "Bienvenido! yo soy: <br><span>Carlos Fernandez, <br>Front-End Developer</span> <br> y este es mi portafolio! ",
+        "boton": "Acerca de mi"
+    },
+
+
+    "Conocimientos": {
+        "titulo": "Conocimientos"
+    },
+
+    "About": {
+        "titulo": "acerca <span>de mi</span>",
+        "descripcion": "Mi nombre es Carlos Sebastian Fernandez, tengo 21 años y soy argentino nacido en Buenos Aires.<br> Soy un desarrollador creativo y muy comprometido con mis trabajos. Me gusta siempre dar un poco más de mi para superar las expectativas. <br><br> Actualmente soy freelancer ofreciendo mis servicios de desarrollo web, estudiando para aumentar mis conocimientos y buscando trabajo en alguna compañía del mismo ámbito para poder seguir avanzando en mi carrera.<br><br> Hasta el momento, mi experiencia como desarrollador solo consta de proyectos realizados de manera independiente. Sin embargo, he tenido experiencia laboral en otros ámbitos. <br> Trabajos en dónde aprendí a realizar tareas dentro de un grupo y a resolver problemas por mi cuenta, quedando preparado para cualquier situación que se me enfrentará. "
+    },
+
+    "Proyectos": {
+        "titulo-section": "mis <span>proyectos</span>",
+        "titulo-proyecto0": "CSF Webs",
+        "descripcion-proyecto0": " Proyecto personal<br> Servicio Freelance  <br> Con responsive design",
+        "lista-proyecto0": "Tecnologías usadas: <li>HTML5</li> <li>CSS3</li> <li>JavaScript</li><li>jQuery</li>",
+        "titulo-proyecto1": "Tienda online",
+        "descripcion-proyecto1": "Web ejemplo tienda online <br> Con carrito y buscador <br> Con responsive design",
+        "lista-proyecto": "Tecnologías usadas: <li>HTML5</li> <li>CSS3</li> <li>JavaScript</li>",
+        "boton": "Visitar <i class='fas fa-external-link-alt'>",
+        "titulo-proyecto2": "MemoTest",
+        "descripcion-proyecto2": "Juego de memoria <br> Sistema de errores y aciertos<br> Con responsive design ",
+        "titulo-proyecto3": "Generador de Memes",
+        "descripcion-proyecto3": "Elige una foto <br> Coloca el texto que quieras <br> Descarga el resultado <br> Listo, ya tienes tu meme! <br> Con responsive design",
+        "lista-proyecto3": "Tecnologías usadas: <li>HTML5</li> <li>CSS3</li> <li>JavaScript</li><li>ReactJS</li>"
+    },
+
+    "Contacto": {
+        "titulo": "Te interesó mi perfil y querés <span>contactarme?</span>",
+        "indicacion": "Elegí la vía que quieras!"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Header": {
+        "proyectos": "Projects",
+        "resumen": "Resume"
+    },
+
+    "Welcome": {
+        "parrafo": "Welcome!  I am <br><span>Carlos Fernandez, <br> Front-End Developer</span> <br> and this is my portfolio! ",
+        "boton": "About me"
+    },
+
+
+    "Conocimientos": {
+        "titulo": "Knowledge"
+    },
+
+    "About": {
+        "titulo": "about <span>me</span>",
+        "descripcion": "My name is Carlos Sebastian Fernandez, i am 21 years old and i am from Buenos Aires, Argentina. <br> I am a creative developer and very committed to my work. I always like to give a little more of me to exceed expectations. <br> <br> Actually, i am offering web development services as a freelancer, while studying to increase my knowledge and looking for a job position to advance on my career. <br><br> At the moment, my experience as a developer its only based on projects done on my own. <br> However, I have work experience in other areas. Jobs where I learned how to perform tasks within a group and solve problems on my own, being prepared for any situation i could face."
+    },
+
+    "Proyectos": {
+        "titulo-section": "My <span>projects</span>",
+        "titulo-proyecto0": "CSF Webs",
+        "descripcion-proyecto0": " Personal project<br> Freelance service  <br> fully responsive",
+        "lista-proyecto0": "Done with: <li>HTML5</li> <li>CSS3</li> <li>JavaScript</li><li>jQuery</li>",
+        "titulo-proyecto1": "Online Store",
+        "descripcion-proyecto1": "Online store example <br> With cart and search <br> Fully responsive ",
+        "lista-proyecto": "Done with:  <li>HTML5</li> <li>CSS3</li> <li>JavaScript</li>",
+        "boton": "Take a look <i class='fas fa-external-link-alt'> ",
+        "titulo-proyecto2": "MemoTest",
+        "descripcion-proyecto2": "Memory game <br> Errors system <br> Fully responsive ",
+        "titulo-proyecto3": "Meme Generator",
+        "descripcion-proyecto3": "Pick an image <br> Write what you want <br> Download your results <br>  There is your meme! <br> Fully responsive",
+        "lista-proyecto3": "Done with: <li>HTML5</li> <li>CSS3</li> <li>JavaScript</li><li>ReactJS</li>"
+    },
+
+    "Contacto": {
+        "titulo": "Do you want to <span>contact me?</span>",
+        "indicacion": "Choose the way you want!"
+    }
+}

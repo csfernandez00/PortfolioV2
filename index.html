@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Fernandez</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&amp;family=EB+Garamond:wght@700&amp;family=Fredoka:wght@300;400&amp;family=Lato&amp;family=Lobster&amp;family=Passion+One&amp;family=Patua+One&amp;family=Roboto+Slab:wght@300;400&amp;family=Roboto:wght@300&amp;family=Rock+Salt&amp;family=Zen+Kaku+Gothic+New:wght@900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+
+<body>
+    <!-- id particles js  -->
+    <div class="bg-home"></div>
+    <div id="particles-js"></div>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title">
+            <h1>Carlos Sebastian Fernandez,<br><span>Front-end Developer</span></h1>
+            <a href="#about" class="btn-title">Quien soy?</a>
+        </div>
+        <svg width="1920" height="338" viewBox="0 0 1920 338" class="path-white" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 337.5H2600V0L960 171L-680 0V337.5Z" fill="white" />
+        </svg>
+        <div class="bg-header"></div>
+    </section>
+    <!-- Header setup -->
+    <header class="header">
+        <div class="logo-cont">
+            <a href="#home" class="logo">CSF</a>
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <li>
+                    <a href="#home">Inicio</a>
+                </li>
+                <li>
+                    <a href="#about">Acerca de mi</a>
+                </li>
+                <li>
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#projects">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cv">
+            <a href="/me/CV-CarlosFernandez.pdf" target="_blank">Resumen</a>
+        </div>
+        <div class="menu-btn">
+            <i class="btn-menu fas fa-bars "></i>
+        </div>
+    </header>
+    <div class="mobile-nav">
+        <i id="close-mobile-nav" class="fas fa-times"></i>
+        <nav>
+            <ul>
+                <li>
+                    <a class="mobile-nav-btn1" href="#home">Inicio</a>
+                </li>
+                <li>
+                    <a class="mobile-nav-btn2" href="#about">Acerca de mi</a>
+                </li>
+                <li>
+                    <a class="mobile-nav-btn3" href="#skills">Habilidades</a>
+                </li>
+                <li>
+                    <a class="mobile-nav-btn4" href="#projects">Proyectos</a>
+                </li>
+                <li>
+                    <a class="mobile-nav-btn5" href="#contact">Contacto</a>
+                </li>
+                <div class="cv">
+                    <a href="/me/CV-CarlosFernandez.pdf" target="_blank">Resumen</a>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <!-- About section -->
+    <section id="about">
+        <h2>Acerca de mi</h2>
+        <!-- SVG start -->
+        <div class="about-bg">
+            <svg width="732" height="1836" viewBox="0 0 732 1836" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="path-draw"
+                    d="M337.5 81.5002H186.5C183.5 81.8336 177.5 80.5002 177.5 72.5002C177.5 64.5002 177.5 28.5002 177.5 11.5002C177.333 8.50024 178.9 2.50024 186.5 2.50024C194.1 2.50024 400 2.50024 502 2.50024C506.167 1.83357 514.5 3.40024 514.5 15.0002C514.5 26.6002 514.5 58.1669 514.5 72.5002C514.167 75.5002 511.9 81.5002 505.5 81.5002C499.1 81.5002 395.167 81.5002 344 81.5002C340.5 81.5002 334 79.1004 334 91.5002C334 103.9 334 118.667 334 124.5C334.333 128.167 332.6 135.5 323 135.5C313.4 135.5 124 135.5 30.5001 135.5C23.1667 135.333 8.50007 139.5 8.50007 157.5C8.50007 175.5 8.50007 496.667 8.50007 655V666.5C8.00007 676.333 13.2001 696 38.0001 696C62.8001 696 375.333 696 528.5 696H677C694.667 697 730 709 730 749C730 789 730 1024.33 730 1137C729.5 1148.67 721.8 1172 695 1172C668.2 1172 240.833 1172 30.5 1172C21.1667 1172.33 2.5 1180 2.5 1208C2.5 1236 2.5 1473.67 2.5 1589C3.16667 1599.67 11.8 1621 41 1621C70.2 1621 244.833 1621 328.5 1621C337.833 1621.67 356.5 1630.2 356.5 1659C356.5 1687.8 356.5 1768.67 356.5 1805.5V1836"
+                    stroke="url(#paint0_linear_155_2)" stroke-width="4" />
+                <path class="path-base"
+                    d="M336.5 80.5002H185.5C182.5 80.8336 176.5 79.5002 176.5 71.5002C176.5 63.5002 176.5 27.5002 176.5 10.5002C176.333 7.50024 177.9 1.50024 185.5 1.50024C193.1 1.50024 399 1.50024 501 1.50024C505.167 0.833572 513.5 2.40024 513.5 14.0002C513.5 25.6002 513.5 57.1669 513.5 71.5002C513.167 74.5002 510.9 80.5002 504.5 80.5002C498.1 80.5002 394.167 80.5002 343 80.5002C339.5 80.5002 333 78.1004 333 90.5002C333 102.9 333 117.667 333 123.5C333.333 127.167 331.6 134.5 322 134.5C312.4 134.5 123 134.5 29.5001 134.5C22.1667 134.333 7.50007 138.5 7.50007 156.5C7.50007 174.5 7.50007 495.667 7.50007 654V665.5C7.00007 675.333 12.2001 695 37.0001 695C61.8001 695 374.333 695 527.5 695H676C693.667 696 729 708 729 748C729 788 729 1023.33 729 1136C728.5 1147.67 720.8 1171 694 1171C667.2 1171 239.833 1171 29.5 1171C20.1667 1171.33 1.5 1179 1.5 1207C1.5 1235 1.5 1472.67 1.5 1588C2.16667 1598.67 10.8 1620 40 1620C69.2 1620 243.833 1620 327.5 1620C336.833 1620.67 355.5 1629.2 355.5 1658C355.5 1686.8 355.5 1767.67 355.5 1804.5V1835"
+                    stroke="#111111" stroke-opacity="0.2" stroke-width="4" />
+                <defs>
+                    <linearGradient id="paint0_linear_155_2" x1="37.2089" y1="-873.122" x2="1413.73" y2="-752.639"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF00C7" />
+                        <stop offset="1" stop-color="#00F0FF" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <!-- SVG end  -->
+        <div class="about-content">
+            <div class="row first-row">
+                <p>
+                    Mi nombre es Carlos Sebastian Fernandez, tengo 22 años y soy argentino nacido en Buenos Aires.
+                    Soy un desarrollador <span>creativo</span> y muy <span>comprometido</span> con mis trabajos. Me
+                    gusta siempre dar un poco más
+                    de
+                    mi para superar las expectativas.
+                </p>
+                <div class="img img-1" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                    data-aos-anchor-placement="bottom-bottom"></div>
+            </div>
+            <div class="row second-row">
+                <p>
+                    Actualmente soy freelancer ofreciendo mis servicios de <span>desarrollo web</span>, estudiando para
+                    aumentar mis
+                    conocimientos y buscando trabajo en alguna compañía del mismo ámbito para poder seguir avanzando en
+                    mi
+                    carrera.
+                </p>
+                <a class="img img-2" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-anchor-placement="top-center" href="https://csfwebs.com/" target="_blank"><i
+                        class="fa-solid fa-globe"></i><span>CSF</span> webs</a>
+            </div>
+            <div class="row third-row">
+                <p class="p-extra"> Trabajos en dónde aprendí a realizar tareas dentro de un grupo y a resolver
+                    problemas por mi cuenta,
+                    quedando
+                    <span>preparado</span> para cualquier situación que se me enfrente.
+                </p>
+                <p>
+                    Hasta el momento, mi <span>experiencia</span> como desarrollador solo consta de proyectos realizados
+                    de manera
+                    independiente. Sin embargo, he tenido experiencia laboral en otros ámbitos.
+                </p>
+                <a class="img-3" href="#projects" data-aos="flip-up" data-aos-easing="ease-out-cubic"
+                    data-aos-anchor-placement="top-center">
+                    Proyectos
+                </a>
+            </div>
+            <div class="final-text">
+                <p> Trabajos en dónde aprendí a realizar tareas dentro de un grupo y a resolver problemas por mi cuenta,
+                    quedando
+                    preparado para cualquier situación que se me enfrente.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="heading">Habilidades</h2>
+        <div class="grid-container">
+            <div class="skill-box">
+                <i class="fab fa-html5"
+                    style="color: transparent; background: linear-gradient(to right, #df4a17 50%,#eb6217 50%); -webkit-background-clip:text;background-clip:text;"
+                    data-aos="fade-in" data-aos-delay="0" data-aos-anchor-placement="center-bottom"></i>
+                <h4 data-aos="fade-in" data-aos-delay="0" data-aos-anchor-placement="center-bottom">HTML</h4>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-css3-alt"
+                    style="color: transparent; background: linear-gradient(to right, #146eb1 50%,#139ad3 50%); -webkit-background-clip:text;background-clip:text;"
+                    data-aos="fade-in" data-aos-delay="100" data-aos-anchor-placement="center-bottom"></i>
+                <h4 data-aos="fade-in" data-aos-delay="100" data-aos-anchor-placement="center-bottom">CSS</h4>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-js-square" style="color: #efd81d;" data-aos="fade-in" data-aos-delay="200"
+                    data-aos-anchor-placement="center-bottom"></i>
+                <h4 data-aos="fade-in" data-aos-delay="200" data-aos-anchor-placement="center-bottom">JavaScript</h4>
+            </div>
+            <div class="skill-box">
+                <img src="/me/jquery.png" alt="jquery" data-aos="fade-in" data-aos-delay="300"
+                    data-aos-anchor-placement="center-bottom"></img>
+                <h4 data-aos="fade-in" data-aos-delay="300" data-aos-anchor-placement="center-bottom">jQuery</h4>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-bootstrap"
+                    style="color: transparent; background: linear-gradient(to bottom right, #8f11f7,#6b10ed); -webkit-background-clip:text;background-clip:text;"
+                    data-aos="fade-in" data-aos-delay="400" data-aos-anchor-placement="center-bottom"></i>
+                <h4 data-aos="fade-in" data-aos-delay="400" data-aos-anchor-placement="center-bottom">Bootstrap</h4>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-git-alt" style="color:#e84e31;" data-aos="fade-in" data-aos-delay="500"
+                    data-aos-anchor-placement="center-bottom"></i>
+                <h4 data-aos="fade-in" data-aos-delay="500" data-aos-anchor-placement="center-bottom">Git</h4>
+            </div>
+            <div class="skill-box">
+                <i class="fab fa-github" style="color:#eee;" data-aos="fade-in" data-aos-delay="600"
+                    data-aos-anchor-placement="center-bottom"></i>
+                <h4 data-aos="fade-in" data-aos-delay="600" data-aos-anchor-placement="center-bottom">GitHub</h4>
+            </div>
+            <div class="skill-box">
+                <img src="/me/figma.png" alt="figma" data-aos="fade-in" data-aos-delay="700"
+                    data-aos-anchor-placement="center-bottom"></img>
+                <h4 data-aos="fade-in" data-aos-delay="700" data-aos-anchor-placement="center-bottom">Figma</h4>
+            </div>
+        </div>
+        <span>Cajas interactivas <i class="fas fa-mouse"></i></span>
+    </section>
+    <!-- Projects Section -->
+
+    <section id="projects">
+        <h2 class="heading">Mis <span>Proyectos</span></h2>
+        <div class="grid-container">
+            <div class="project-box one" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <h3><i class="fa-solid fa-globe"></i>
+                    <span>CSF</span>webs
+                </h3>
+                <div class="content">
+                    <h4>CSFwebs <i class="fa-solid fa-star" style="font-size: 1.5rem; color:gold;"></i></h4>
+                    <p>Mi proyecto profesional donde ofrezco mis servicios de diseño y maquetado de sitios web.
+                        Desde
+                        plantillas hasta sitios totalmente personalizados para el cliente.</p>
+                    <h5>Conocimientos aplicados</h5>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-figma"></i>
+                    <i class="fab fa-git-alt"></i>
+                    <i class="fab fa-github"></i>
+                    <span
+                        style="font-family: 'Dongle', sans-serif; font-size: 3rem; color: #555; line-height: 2rem;">jQ</span>
+                    <div class="btns">
+                        <a href="https://csfwebs.com/" target="_blank" class="btn-forward">Visitar <i
+                                class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-box two" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <h3 style="font-family: 'rock salt', cursive;">
+                    Delta <i class="fa-solid fa-angles-up" style="color: #1ed760;"></i> Pirates
+                </h3>
+                <div class="content">
+                    <h4>Delta Pirates <i class="fa-solid fa-star" style="font-size: 1.5rem; color:#ff00ff;"></i>
+                    </h4>
+                    <p>Sitio creado con el fin de ser ofrecido en CSFwebs. Ya sea como base para modificar algunos
+                        aspectos, o como producto final</p>
+                    <h5>Conocimientos aplicados</h5>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-git-alt"></i>
+                    <i class="fab fa-github"></i>
+
+                    <div class="btns">
+                        <a href="https://csfwebs-plantilla2.netlify.app/" target="_blank" class="btn-forward">Visitar <i
+                                class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box three" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <h3>
+                    Tienda <span style="font-family: lobster; color: #e081e0;">Sushi</span>
+                </h3>
+                <div class="content">
+                    <h4>Tienda Sushi <i class="fa-solid fa-star" style="font-size: 1.5rem; color:#ff00ff;"></i></h4>
+                    <p>Sitio creado con el fin de ser ofrecido en CSFwebs. Ya sea como base para modificar algunos
+                        aspectos, o como producto final</p>
+                    <h5>Conocimientos aplicados</h5>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-git-alt"></i>
+                    <i class="fab fa-github"></i>
+                    <div class="btns">
+                        <a href="https://csfwebs-plantilla1.netlify.app/" target="_blank" class="btn-forward">Visitar <i
+                                class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box four" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <h3>
+                    Tienda <span style="font-family: lobster; color: #feb000;">Guitarras</span>
+                </h3>
+                <div class="content">
+                    <h4>Tienda Guitarras <i class="fa-solid fa-star" style="font-size: 1.5rem; color:#ff00ff;"></i>
+                    </h4>
+                    <p>Sitio creado con el fin de ser ofrecido en CSFwebs. Ya sea como base para modificar algunos
+                        aspectos, o como producto final.</p>
+                    <h5>Conocimientos aplicados</h5>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-git-alt"></i>
+                    <i class="fab fa-github"></i>
+                    <div class="btns">
+                        <a href="https://proyecto-tiendaonline.netlify.app/" target="_blank" class="btn-forward">Visitar
+                            <i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box five" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <h3>
+                    Meme Generator <i class="fa-solid fa-image" style="color: #00d0af;"></i>
+                </h3>
+                <div class="content">
+                    <h4>Meme Generator <i class="fa-solid fa-star" style="font-size: 1.5rem; color:#00cac4;"></i>
+                    </h4>
+                    <p>Proyecto creado durante mi aprendizaje de React.js, una forma divertida de aplicar los
+                        conocimientos.</p>
+                    <h5>Conocimientos aplicados</h5>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-react"></i>
+                    <i class="fab fa-git-alt"></i>
+                    <i class="fab fa-github"></i>
+                    <div class="btns">
+                        <a href="https://csfernandez00.github.io/MemeGenerator/" target="_blank"
+                            class="btn-forward">Visitar <i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box six" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                <h3>
+                    <i class="fa-solid fa-brain" style="color: #dc54ed;"></i> MemoTest
+                </h3>
+                <div class="content">
+                    <h4>Memo Test <i class="fa-solid fa-star" style="font-size: 1.5rem; color:#00cac4;"></i></h4>
+                    <p>Proyecto creado luego de terminar mi aprendizaje de JavaScript. Quería crear algo entretenido
+                        y funcional para compartirlo con mis amistades. </p>
+                    <h5>Conocimientos aplicados</h5>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+
+                    <div class="btns">
+                        <a href="https://proyecto-memotest.netlify.app/" target="_blank" class="btn-forward">Visitar
+                            <i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="referencias">
+            <p><i class="fas fa-square" style="color: gold; padding:0 .5rem;"></i>Mi proyecto más importante</p>
+            <p><i class="fas fa-square" style="color: #ff00ff; padding:0 .5rem;"></i>Algunos proyectos en CSFwebs
+            </p>
+            <p><i class="fas fa-square" style="color: #00cac4; padding:0 .5rem;"></i>Proyectos de mi aprendizaje</p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <div class="row">
+            <div class="left-side">
+                <div class="contact-info">
+                    <div class="contact-info-row">
+                        <i class="fas fa-phone"></i>
+                        <p style=" font-family: Arial, Helvetica, sans-serif;">+54 11 2254-8711</p>
+                    </div>
+                    <div class="contact-info-row">
+                        <i class="fas fa-envelope"></i>
+                        <p>csfernandez00@gmail.com</p>
+                    </div>
+                    <div class="contact-info-row">
+                        <i class="fas fa-location-pin"></i>
+                        <p>Buenos Aires, Argentina</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/charly_fernandez00/" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/carlos-sebastian-fernandez-65056322b/"
+                        class="fab fa-linkedin-in"></a>
+                    <a href="https://wa.me/+541122548711" class="fab fa-whatsapp"></a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="right-side">
+                <div class="heading">
+                    <h2>Te intereso mi perfil?</h2>
+                    <h4>No dudes en contactarme!</h4>
+                </div>
+                <form>
+                    <div>                       
+                        <input type="text" id="name" required>
+                        <label style="font-size: 1.3rem;" for="name">Nombre</label>
+                    </div>
+
+                    <div>                       
+                        <input type="text" id="email" required>
+                        <label style="font-size: 1.3rem;" for="email">Email</label>
+                    </div>
+
+                    <div class="message">                        
+                        <textarea name="message" id="message" cols="60" rows="7" style="resize:  none;" required></textarea>
+                        <label style="font-size: 1.3rem;" for="message">Mensaje</label>
+                    </div>
+                    <input type="submit" value="Enviar">
+                </form>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Particles.js-->
+    <script src="JS/particles.js-master/particles.min.js"></script>
+    <script src="JS/particles.js-master/app.js"></script>
+
+
+    <!--Code-->
+    <script src="JS/codigo.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="/JS/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".skill-box"), {
+            max: 15,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+            gyroscope: false,
+        });
+    </script>
+</body>
+
+</html>
