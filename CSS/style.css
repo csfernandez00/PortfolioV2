@@ -640,11 +640,11 @@ section {
 
 #skills .grid-container{
     display: grid;
-    width: 60%;
+    width: 70%;
     height: 70%;
     padding: 1rem 0rem;
     margin: 0rem auto;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(2,1fr) ;
     gap: 2rem;
 }
@@ -1179,7 +1179,7 @@ section {
     }
 
     #skills .grid-container{
-        width: 70%;
+        width: 80%;
     }
     #skills .grid-container .skill-box img{
         max-width: 75px;
@@ -1241,7 +1241,7 @@ section {
         font-size: 3.4rem;
     }
     #skills .grid-container{
-        width: 80%;
+        width: 90%;
     }
 
     #projects .grid-container{
@@ -1450,7 +1450,7 @@ section {
     #skills .grid-container{
         width: 80%;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
     }
     #skills .grid-container .skill-box img{
         max-width: 70px;
