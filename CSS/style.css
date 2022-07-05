@@ -685,8 +685,8 @@ section {
 
 #skills .grid-container .skill-box img{
     object-fit: cover;
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 90px;
+    max-width: 90px;
     transform: translateZ(20px);
 }
 
@@ -1190,8 +1190,8 @@ section {
         width: 80%;
     }
     #skills .grid-container .skill-box img{
-        max-width: 75px;
-        max-height: 75px;
+        max-width: 70px;
+        max-height: 70px;
     }
 
     #projects .grid-container{
