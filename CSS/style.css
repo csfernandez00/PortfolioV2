@@ -640,11 +640,11 @@ section {
 
 #skills .grid-container{
     display: grid;
-    width: 80%;
+    width: 70%;
     padding: 1rem 0rem;
     margin: 0rem auto;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(2,1fr) ;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr) ;
     gap: 1.2rem;
 }
 
@@ -1458,9 +1458,12 @@ section {
     }
 
     #skills .grid-container{
-        width: 80%;
-        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(5, 1fr);
+    }
+    #skills .grid-container .skill-box i{
+        font-size: 7rem;
     }
     #skills .grid-container .skill-box img{
         max-width: 70px;
@@ -1478,6 +1481,16 @@ section {
 
 
 @media(max-width:700px){
+
+    #skills .grid-container .skill-box i{
+        font-size: 6rem;
+    }
+    #skills .grid-container .skill-box img{
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+
     #projects .grid-container{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(6, 300px);
@@ -1571,11 +1584,12 @@ section {
     #about .about-content .row.row.third-row .img-3{
         width: 100%;
     }
-
-    #skills .grid-container{
-        width: 95%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+    #skills .grid-container .skill-box i{
+        font-size: 5rem;
+    }
+    #skills .grid-container .skill-box img{
+        max-width: 50px;
+        max-height: 50px;
     }
 
     #projects{
